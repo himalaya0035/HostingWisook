@@ -1,0 +1,255 @@
+
+
+#rootElement,#previewHookPost{
+    visibility: 1;
+    opacity: 1;
+    transition: 0.5s
+}
+#loader,#loader2,#loader3{
+    display: none;
+    visibility: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.intrestBox h1,.hookTitle,.sidebar-wrapper .sidebar-menu ul li a .menu-text,.sidebar-wrapper .sidebar-header .user-info>span {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pageWrapper {
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.navbar {
+    padding: 8px 10px;
+}
+.searchBar,.searchBar2 {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    max-width: 450px;
+    width: 100%;
+}
+
+.searchBar button,.searchBar2 button {
+    height: 34px;
+    border: none;
+    padding: 0px;
+}
+
+.searchBar select,.searchBar2 select {
+    display: block;
+    height: 39.5px;
+    font-weight: bold;
+    padding-left: 5px;
+    background: #f2f2f2;
+}
+.searchBar2 select {
+    height: 40px;
+    background:black;
+    color: white;
+}
+.searchInput {
+    padding: 8px 12px;
+    padding-right: 30px;
+    font-weight: 600;
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid #454545;
+
+}
+
+.searchIcon,.searchIcon2{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    width: 20px;
+}
+.searchIcon{
+    font-size: 21px;
+    color: rgb(85, 85, 85);
+}
+.searchIcon2 {
+    top: 12px;
+    /* width: 25px; */
+}
+#addHook {
+    margin-left: 15px;
+    border-color: white;
+}
+
+.mobileNavbar {
+    display: none;
+}
+
+.toggleSidebarBtn {
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+#addHookMobile{
+    display: none;
+    z-index: 100;
+    cursor: pointer;
+}
+.searchSection {
+    display: none;
+    position: absolute;
+    max-width: 450px;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 400px;
+    background-color: #f2f2f2;
+    margin-left: 15px;
+    z-index: 30;
+
+}
+.searchResult {
+
+    display: block;
+    padding: 10px;
+    line-height: 15px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: black;
+    transition: 0.25s;
+}
+.searchResult:hover {
+    background: black;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.searchBar2 {
+    display: none;
+}
+/* ::-webkit-scrollbar {
+    width: 15px;
+    background-color: #000;
+    height: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #696660;
+  } */
+
+
+
+  div.disappearScrollbar{
+    overflow-x:hidden;
+}
+
+@media screen and (max-width:925px) {
+    .searchBar {
+        display: none;
+    }
+    .searchBar2 {
+        display: flex;
+    }
+    #addHook {
+        display: none;
+    }
+
+    .mobileNavbar {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .searchIconMobile {
+        font-size: 18px;
+        color: white;
+        margin-right: 10px;
+    }
+
+    .toggleSidebarBtn {
+        display: none;
+    }
+
+    .mobileNavbarOption {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobileSidebarToogler {
+        position: relative;
+    }
+
+    .mobileProfileImage {
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    .mobileSidebarTogglerBar {
+        position: absolute;
+        background: white;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 9px;
+        right: 10px;
+    }
+    .mobileSidebarTogglerBar i {
+        font-size: 10px;
+        color: black;
+    }
+    .searchSection{
+        display: none;
+        position: fixed;
+        top: 0px;
+        right: 0%;
+        z-index: 20;
+        height: 100%;
+        max-height: 100%;
+        width: 100%;
+        background-color: #f2f2f2;
+        transition: 0.25s;
+    }
+    .searchResult {
+        padding-left: 8px;
+        padding-top: 12px;
+    }
+    #addHookMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 8%;
+        right: 13px;
+        height: 45px;
+        width: 45px;
+        border: 1px solid white;
+        background: black;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width:1120px){
+    #learnMore {
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+
+  div.disappearScrollbar{
+    overflow-x:auto;
+}
+div.disappearScrollbar::-webkit-scrollbar {
+    height: 0px;
+}
+
+}

@@ -1,0 +1,152 @@
+.hookScroller {
+    display: flex;
+    overflow-x: auto;
+    cursor: grab;
+}
+
+.hookPost {
+    box-shadow: 0px 0px 4px #fff;
+    width: 350px;
+    height: 230px;
+    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.hookImgHolder, .hookImgHolder img {
+    width: 350px;
+    height: 190px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hookImgHolder {
+    position: relative;
+}
+
+.openHook {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    color: white;
+    z-index: 1;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hookImgHolder img {
+    object-fit: cover;
+}
+
+.hookTitle {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    color: white;
+    z-index: 1;
+    width: 300px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hookOverlay {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    opacity: 0.7;
+    background: #000;
+}
+
+.hookStats {
+    width: 350px;
+    height: 40px;
+    border-top: none;
+    display: flex;
+    background: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.hookStats > div {
+    flex: 1;
+    border-right: 1px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.hookStats > div:last-child {
+    border-right: none;
+}
+
+.hookStats > div:hover {
+    box-shadow: 0px 0px 10px #000;
+}
+
+.like {
+    color: red;
+}
+
+.bookmark {
+    color: rgb(61, 60, 60);
+}
+
+.share {
+    color: green;
+}
+
+.redirect {
+    color: rgb(51, 51, 247);
+}
+
+.statSection i {
+    font-size: 17px;
+}
+
+.statSection h6 {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+    .hookPost {
+        width: 250px;
+        height: 165px;
+    }
+
+    .hookImgHolder, .hookImgHolder img {
+        width: 250px;
+        height: 135px;
+    }
+
+    .hookStats {
+        width: 250px;
+        height: 30px;
+    }
+
+    .statSection i {
+        font-size: 15px;
+    }
+
+    .hookTitle {
+        font-size: 16px;
+        width: 200px;
+    }
+
+    .hookOverlay {
+        height: 28px;
+    }
+
+    .openHook {
+        font-size: 12px;
+        bottom: 9px;
+        right: 12px;
+    }
+}

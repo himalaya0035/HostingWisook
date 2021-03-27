@@ -1,0 +1,13 @@
+default_interests = ['Nature Photography', 'Luxury Cars', 'Animals', 'Comics Art', "Men's Fashion", 'Funny Quotes',
+                     'Home Decor', "Men's Business Outfits", 'Travel', 'Insects', 'Art', 'Beards', 'Drawings',
+                     'Life Quotes', 'Photography', 'Health', 'Education', 'Celebrities', 'Inspirational Quotes',
+                     'Actresses', 'Technology', 'Love Quotes', 'Tattoos and Body Art', 'Gadgets', 'Modernism',
+                     'Furniture', 'Humor', "Men's Style", 'House Architecture', 'Lamborghini', 'Cafe Racers', 'Batman',
+                     'Hulk', 'Cat breeds', 'Paintings', 'Home Renovation', 'Xmen', 'Survival Tips', 'Graphic Design',
+                     'Motorcycles', 'Relationship Advice', 'Food and Drink', 'Memes', 'Character Design', 'Anime',
+                     'Yoga', 'Soccer', 'Road Trips', 'Diet Ideas', 'Meditation', 'Astronomy', 'Jeep', 'Captain America',
+                     'Interior Design', 'Nebulas', 'Game of Thrones', 'Dogs', 'Superhero Comics', 'Naruto Shippden',
+                     'DIY Home Decor', 'Pokémon', 'Missing you quotes', 'Funny Pranks', 'Wisdom Quotes', 'Shed',
+                     "Men's pants", 'Halloween Costumes For Adults', 'Manga comics', 'Garden care', 'Flowers',
+                     'Fitness and Exercise', 'Marvel', 'Wedding Photography', 'Computer', 'Concept Cars',
+                     'Dragon balls', 'Web Design', "Men's Hairstyles", 'Landscape Photography']

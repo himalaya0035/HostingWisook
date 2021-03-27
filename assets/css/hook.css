@@ -1,0 +1,313 @@
+.singleHookContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.hookAndDesc, .userAndComments {
+    max-width: 450px;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.userAndComments {
+    margin-right: 0px;
+}
+
+.hookAndDesc .hookPost {
+    width: 100%;
+    height: 300px;
+}
+
+.hookAndDesc .hookImgHolder, .hookAndDesc .hookImgHolder img, .hookAndDesc .hookStats {
+    width: 100%;
+    height: 250px
+}
+
+.userAndComments .card {
+    width: 100%;
+}
+
+
+.hookAndDesc .hookStats {
+    height: 50px;
+}
+
+.hookAndDesc .hookStats i {
+    font-size: 20px;
+}
+
+.descAndStats, .commentsSection {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
+}
+
+
+.commentsSection {
+    margin-top: 15px;
+    height: 321px;
+    overflow: auto;
+    position: relative;
+    overflow-y: hidden;
+    background: #f2f2f2;
+}
+
+.allComments {
+    height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.addComment {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+}
+
+.addComment input {
+    width: 80%;
+    margin: 0px;
+    border-radius: 0px;
+    border: 1px solid gray;
+    padding: 0px 8px 0px 8px;
+    color: gray;
+}
+
+.addComment button {
+    width: 20%;
+    border-radius: 0px;
+}
+
+.hookStats2 {
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #f2f2f2;
+    border-bottom: 1px solid rgb(180, 175, 175);
+}
+
+.hookStats2 > div {
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.hookStats2 i {
+    margin-right: 3px;
+}
+
+.totalLikes {
+    color: rgb(243, 40, 40);
+}
+
+.totalViews {
+    color: rgb(11, 14, 187);
+}
+
+.popularityScore {
+    color: #065c27;
+
+}
+
+.descHook {
+    padding: 5px 12px;
+    overflow-y: auto;
+}
+
+.descHook p {
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 620;
+    color: rgb(92, 88, 88);
+}
+
+
+@media screen and (max-width: 700px) {
+    .singleHookContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hookAndDesc {
+        margin: 0px;
+    }
+
+    .hookAndDesc .hookPost {
+        height: 250px;
+    }
+
+    .hookAndDesc .hookImgHolder, .hookAndDesc .hookImgHolder img, .hookAndDesc .hookStats {
+        height: 210px;
+    }
+
+    .hookAndDesc .hookStats {
+        height: 40px;
+    }
+
+    .hookAndDesc .hookStats i {
+        font-size: 16px;
+    }
+}
+
+
+.singleHookContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.hookAndDesc,.userAndComments{
+    max-width: 450px;
+    width:100%;
+    margin-right: 15px;
+}
+.userAndComments {
+    margin-right: 0px;
+}
+
+.hookAndDesc .hookPost{
+    width: 100%;
+    height: 300px;
+}
+.hookAndDesc .hookImgHolder, .hookAndDesc .hookImgHolder img,.hookAndDesc .hookStats{
+    width: 100%;
+    height: 250px
+}
+.userAndComments .card{
+    width:100%;
+}
+
+
+
+
+
+.hookAndDesc .hookStats{
+    height: 50px;
+}
+.hookAndDesc .hookStats i {
+    font-size: 20px;
+}
+
+.descAndStats,.commentsSection{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 15px;
+}
+
+
+.commentsSection {
+    margin-top: 15px;
+    height: 321px;
+    overflow: auto;
+    position: relative;
+    overflow-y: hidden;
+    background: #f2f2f2;
+}
+.allComments {
+    height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.addComment{
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+}
+
+.addComment input {
+    width: 80%;
+    margin: 0px;
+    border-radius: 0px;
+    border: 1px solid gray;
+    padding:0px 8px 0px 8px;
+    color: gray;
+}
+.addComment button {
+    width: 20%;
+    border-radius: 0px;
+}
+.hookStats2{
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background:#f2f2f2;
+    border-bottom: 1px solid rgb(180, 175, 175);
+}
+.hookStats2 > div {
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.hookStats2 i {
+    margin-right: 3px;
+}
+.totalLikes {
+    color: rgb(243, 40, 40);
+}
+.totalViews {
+    color: rgb(11, 14, 187);
+}
+.popularityScore{
+    color: #065c27;
+
+}
+.descHook {
+    padding:5px 12px;
+
+}
+
+.descHook p {
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 620;
+    color:rgb(92, 88, 88);
+    height: 150px;
+    overflow:auto;
+}
+
+.singleHookContainer .hookTitle {
+    width: 350px;
+}
+
+@media screen and (max-width:700px){
+    .singleHookContainer{
+        flex-direction: column;
+        height: auto;
+    }
+    .singleHookContainer .hookTitle {
+        width: 290px;
+    }
+    .hookAndDesc{
+        margin: 0px;
+    }
+    .hookAndDesc .hookPost{
+        height: 250px;
+    }
+    .hookAndDesc .hookImgHolder, .hookAndDesc .hookImgHolder img,.hookAndDesc .hookStats{
+        height: 210px;
+    }
+    .hookAndDesc .hookStats{
+        height: 40px;
+    }
+    .hookAndDesc .hookStats i {
+        font-size: 16px;
+    }
+}

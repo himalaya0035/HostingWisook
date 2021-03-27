@@ -1,0 +1,14 @@
+.card1 {
+    margin-right: 10px;
+    height: 220px;
+    width: 320px;
+}
+
+.collectionsScroller{
+    overflow-x: auto;
+    cursor: grab;
+}
+.collectionsContainer{
+    width: 1985px;
+    display: flex;
+}

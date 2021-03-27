@@ -1,0 +1,164 @@
+.sidebarIntrestsBox {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+  }
+  .intrestBox,.intrestBox2{
+    width: 120px;
+    height: 90px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80');
+    background-position: center;
+    background-size: cover;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .intrestBox2 {
+    cursor:unset;
+  }
+  .intrestBox h1,.intrestBox2 h1 {
+    font-size: 18px;
+    color: white;
+    z-index: 1;
+    font-family: 'Montserrat';
+    font-weight: bold;
+  }
+  .colorOverlay{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.55;
+    transition: 0.25s;
+  }
+  .intrestBox:hover {
+    transform: scale(0.9);
+    border:1px solid white;
+  }
+  .intrestBox:hover .colorOverlay {
+    opacity: 0.7;
+  }
+  .mainPageIntrestBoxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .mainPageIntrestBoxs .intrestBox2 {
+    width: 296px;
+    height: 200px;
+    margin-left: 0px;
+    margin-bottom: 18px;
+    font-size: 50px;
+    box-shadow: 0px 0px 3px #fff;
+  }
+  .mainPageIntrestBoxs .intrestBox2:hover{
+    transform: scale(1);
+    border: none;
+  }
+  .mainPageIntrestBoxs .colorOverlay{
+    opacity: 0.45;
+  }
+  .mainPageIntrestBoxs .intrestBox2:hover .colorOverlay {
+    opacity: 0.6;
+  }
+  .mainPageIntrestBoxs .intrestBox h1{
+    font-size: 22px;
+  }
+  .followOrRemove{
+    position: absolute;
+    bottom: 5px;
+    right: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    cursor: pointer;
+  }
+  .viewInterestHooks{
+    right: 40px;
+    text-decoration: none;
+  }
+  .viewInterestHooks:hover {
+    text-decoration: none;
+  }
+  .followOrRemove i {
+    font-size: 20px;
+    color: black;
+  }
+  @media screen and (max-width:900px){
+    .mainPageIntrestBoxs .intrestBox2 {
+      width: 290px;
+    }
+  }
+  @media screen and (max-width:650px){
+    .mainPageIntrestBoxs .intrestBox2 {
+      width: 280px;
+      height:210px;
+    }
+    .intrestsBoxContainer h4 {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width:600px){
+    .mainPageIntrestBoxs {
+      justify-content: center;
+    }
+    .mainPageIntrestBoxs .intrestBox2 {
+      width: 320px;
+      height:210px;
+    }
+    .intrestsBoxContainer h4 {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width:420px){
+    .intrestsBoxContainer h4 {
+      text-align: left;
+    }
+    .mainPageIntrestBoxs {
+      justify-content: space-between;
+    }
+    .mainPageIntrestBoxs .intrestBox2 {
+      width: 183px;
+      height: 120px;
+    }
+  }
+@media screen and (max-width:400px){
+    .mainPageIntrestBoxs .intrestBox2 {
+      width: 173px;
+      height: 120px;
+    }
+  }
+@media screen and (max-width:380px){
+  .mainPageIntrestBoxs .intrestBox2 {
+    width: 163px;
+    height: 120px;
+  }
+}
+@media screen and (max-width:360px) {
+  .mainPageIntrestBoxs .intrestBox2 {
+    width: 155px;
+    height: 105px;
+  }
+  .followOrRemove {
+    width: 25px;
+    height: 25px;
+  }
+  .viewInterestHooks {
+    right: 35px;
+  }
+  .followOrRemove i {
+    font-size: 15px;
+  }
+}

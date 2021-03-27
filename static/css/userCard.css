@@ -1,0 +1,68 @@
+.usersScroller {
+    overflow-x: auto;
+    cursor: grab;
+}
+
+.usersContainer {
+    width: 2180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.image img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.stats {
+    background: #f2f5f8 !important;
+    color: #000 !important
+}
+
+.articles {
+    font-size: 10px;
+    color: #a1aab9
+}
+
+.number1 {
+    font-weight: 500
+}
+
+.followers {
+    font-size: 10px;
+    color: #a1aab9;
+}
+
+.number2 {
+    font-weight: 500
+}
+
+.rating {
+    font-size: 10px;
+    color: #a1aab9;
+}
+
+@media screen and (max-width: 400px) {
+    .usersContainer {
+        width: 1910px;
+    }
+
+    .card {
+        width: 310px;
+        padding-left: 3px;
+    }
+
+    .image img {
+        height: 110px;
+        object-fit: cover;
+        width: 110px;
+    }
+}

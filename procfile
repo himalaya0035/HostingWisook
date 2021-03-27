@@ -1,0 +1,1 @@
+web: gunicorn wisook_backend.wsgi

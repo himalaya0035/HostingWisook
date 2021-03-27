@@ -1,0 +1,106 @@
+.latestFeedContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+    width: 390px;
+}
+.latestFeedContainer > div{
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1280px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 280px;
+    }
+    .hookTitle{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:1190px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 400px;
+    }
+    .hookTitle{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1150px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 380px;
+    }
+}
+@media screen and (max-width:1103px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 353px;
+    }
+}
+@media screen and (max-width:1000px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 310px;
+    }
+}
+@media screen and (max-width:960px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 290px;
+    }
+}
+@media screen and (max-width:924px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 388px;
+    }
+}
+@media screen and (max-width:830px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 350px;
+    }
+}
+@media screen and (max-width:750px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 300px;
+    }
+    .latestFeedContainer .hookTitle {
+        width: 290px;
+    }
+}
+@media screen and (max-width:660px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 270px;
+    }
+}
+@media screen and (max-width:580px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 240px;
+    }
+    .hookTitle{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:545px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 220px;
+    }
+    .latestFeedContainer > div {
+        height:210px ;
+    }
+    .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img {
+        height: 180px;
+    }
+
+}
+@media screen and (max-width:490px){
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        width: 200px;
+    }
+
+}
+@media screen and (max-width:451px) {
+    .latestFeedContainer > div, .latestFeedContainer .hookImgHolder, .latestFeedContainer .hookImgHolder img,.latestFeedContainer .hookStats{
+        max-width: 600px;
+        width: 100%;
+    }
+    .hookTitle {
+        font-size: 16px;
+    }
+}
